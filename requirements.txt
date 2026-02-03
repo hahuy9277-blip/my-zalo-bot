@@ -5,3 +5,4 @@ colorama
 python-dotenv
 apscheduler
 websockets
+schedule
