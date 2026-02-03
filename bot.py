@@ -103,4 +103,4 @@ if __name__ == "__main__":
     client = Client(API_KEY, SECRET_KEY, IMEI, SESSION_COOKIES)
     set_client(client)
     start_scheduler()
-    client.listen(thread=True, delay=0)
+    client.listen()
